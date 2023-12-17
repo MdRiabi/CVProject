@@ -23,6 +23,7 @@ let firstnameElem = mainForm.firstname,
     imageElem = mainForm.image,
     designationElem = mainForm.designation,
     addressElem = mainForm.address,
+    emailElem = mainForm.email,
     phonenoElem = mainForm.phoneno,
     summaryElem = mainForm.summary;
 
@@ -77,7 +78,7 @@ let firstnameElem = mainForm.firstname,
                     eduDegreeElem = document.querySelectorAll('.edu_degree'),
                     eduCityElem = document.querySelectorAll('.edu_degree'),
                     eduStartDateElem = document.querySelectorAll('.edu_start_date'),
-                    eduGraduarionDateElem = document.querySelectorAll('.edu_graduation_date'),
+                    eduGraduationDateElem = document.querySelectorAll('.edu_graduation_date'),
                     eduDescriptionElem = document.querySelectorAll('.edu_description');
 
             // Projects
