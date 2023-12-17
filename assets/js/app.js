@@ -31,7 +31,7 @@ let firstnameElem = mainForm.firstname,
 
     // display elements
 
-    let nameDsp = document.getElementById('fullmane_dsp'),
+    let nameDsp = document.getElementById('fullname_dsp'),
         imageDsp = document.getElementById('image_dsp'),
         phonenoDsp = document.getElementById('phoneno_dsp'),
         emailDsp = document.getElementById('email_dsp'),
@@ -57,7 +57,7 @@ let firstnameElem = mainForm.firstname,
                 tempDataArr.push(dataObj);
             }
             return tempDataArr;
-        }
+        };
 
         const getUserInputs = () =>{
             //achievements
@@ -227,7 +227,7 @@ let firstnameElem = mainForm.firstname,
 
 
         // generate CV
-        const generateCV = () => {
+        let generateCV = () => {
             let userData = getUserInputs();
             displayCV(userData);
             console.log(userData);
